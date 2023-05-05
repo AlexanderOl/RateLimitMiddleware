@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QGPSAum6ITdEyLncS/KWlDJip1p1a8QoNrfVwAZFwUw=",
+  "Source": "RateLimitApp",
+  "BasePath": "_content/RateLimitApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

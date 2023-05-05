@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ow60sgmnmR8V5AsJnuNripRNfvM6IE7VjL/TIxA2tkNQDrM2u/qvQs9uPgDeHqnvCF0wrHwzxqMzzzQ/V3kNow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ao140\\source\\repos\\RateLimitApp\\RateLimitApp\\RateLimitApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ao140\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ao140\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
