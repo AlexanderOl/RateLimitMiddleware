@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Newtonsoft.Json;
 using RateLimitApp.Models;
+using System.Collections.Concurrent;
 using System.Net;
 
 namespace RateLimitApp.Middleware
@@ -11,14 +12,14 @@ namespace RateLimitApp.Middleware
         private readonly RequestDelegate _next;
         private readonly int _maxRequests;
         private readonly int _ratePeriodSeconds;
-        private readonly Dictionary<string, ClientStatistics> _cache;
+        private readonly ConcurrentDictionary<string, ClientStatistics> _cache;
 
         public RateLimitMiddleware(RequestDelegate next, IConfiguration configuration)
         {
             _next = next;
             _maxRequests = Convert.ToInt32(configuration["RateLimitMaxRequests"]);
             _ratePeriodSeconds = Convert.ToInt32(configuration["RateLimitPeriodSeconds"]);
-            _cache = new Dictionary<string, ClientStatistics>();
+            _cache = new ConcurrentDictionary<string, ClientStatistics>();
         }
 
         public async Task InvokeAsync(HttpContext context)
